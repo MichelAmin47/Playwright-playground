@@ -20,7 +20,7 @@ For Example,
 
 css=article >> css=.bar > .baz >> css=span[attr=value]
 
-### Running tests
+### Running tests in TypeScript
 
 Running a single test file
 npx playwright test landing-page.spec.ts
