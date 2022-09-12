@@ -16,7 +16,7 @@ Playwright Test is based on the concept of test fixtures such as the built in pa
 ### CSS
 Selectors defined as engine=body or in short-form can be combined with the >> token, e.g. selector1 >> selector2 >> selectors3. When selectors are chained, the next one is queried relative to the previous one's result.
 
-For example,
+For Example,
 
 css=article >> css=.bar > .baz >> css=span[attr=value]
 
