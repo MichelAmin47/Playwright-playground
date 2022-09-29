@@ -6,16 +6,14 @@ export class HomePage {
 
     constructor(page: Page) {
         this.page = page;
-        this.signInButton = page.locator('text=Sign in');
+        this.signInButton = page.locator('');
     }
 
     async goto() {
-        await this.page.goto('https://webshop.mobiletestautomation.nl/');
-        await expect(this.page).toHaveTitle('Valori Automation Practice Shop');
+
     }
 
     async goSignIn() {
-        await this.signInButton.click()
-        await expect(this.page.locator('h1', { hasText: ' Log in to your account' })).toBeVisible();
+
     }
 }
